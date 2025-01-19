@@ -21,7 +21,6 @@ eureka:
     hostname: localhost
     instance-id: ${spring.application.name}:${random.value}
 
-
 logging:
   level:
     org:

@@ -12,9 +12,6 @@ public class Configserverboot3Application
 {
     public static void main(String[] args)
     {
-            SpringApplication application = new SpringApplication(Configserverboot3Application.class);
-            // Set the active profile programmatically
-            application.setAdditionalProfiles("dev");
-            application.run(args);
+            SpringApplication.run(Configserverboot3Application.class);
     }
 }
